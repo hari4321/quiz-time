@@ -3,9 +3,10 @@ import "./StartButton.css"; // Import your custom CSS
 const StartButton = () => {
   return (
     <div className="start-button-container">
-      <a class="swipe">
+      {/* Added id="start-button" */}
+      <a className="swipe" id="start-button">
         Get Started
-        <span class="btn-container">
+        <span className="btn-container">
           <svg
             height="24"
             width="24"
@@ -18,7 +19,7 @@ const StartButton = () => {
               fill="currentColor"
             ></path>
           </svg>
-        </span>{" "}
+        </span>
       </a>
     </div>
   );
