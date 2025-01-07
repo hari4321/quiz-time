@@ -68,10 +68,10 @@ const StartPage = () => {
           <p>Test your knowledge about Independence Day!</p>
           <div className="button-group mt-4 mb-5">
             <div className="mt-4">
-              <StartButton text="Start Quiz" onClick={startQuiz} />
+              <StartButton text="Start Quiz" onClick={startQuiz} id="start-quiz" />
             </div>
             <div className="mt-4">
-              <StartButton text="Rules" onClick={scrollToRules} />
+              <StartButton text="Rules" onClick={scrollToRules} id="rules-quiz" />
             </div>
           </div>
         </div>

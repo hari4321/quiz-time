@@ -73,7 +73,7 @@ const QuizPage = () => {
       
       {/* Submit the quiz when all questions are answered */}
       {currentQuestion === questions.length - 1 && (
-        <button className="btn btn-success mt-3" onClick={handleSubmit}>Submit Quiz</button>
+        <button className="btn btn-success mt-3" onClick={handleSubmit} id='submit-quiz'>Submit Quiz</button>
       )}
     </div>
   );
